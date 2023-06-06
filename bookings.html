@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)"
+                    class="closebtn" onclick="closeNav()">
+                    ×
+                </a>
+                <a href="index.html">Home</a> <hr>
+                <a href="bookings.html">Bookings & Resvations</a><hr>
+                <a href="gallery.html">Gallery</a><hr>
+                <a href="contact.html">Contact Us</a><hr>
+                <a href="about.html">About Us</a><hr>
+           
+    </div>
+	
+	<div id="main">
+        <div class="row">
+            <div class="col-6">
+                <a href="index.html"><img class="logo" src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div class="col-6">
+		<button class="openbtn"
+			onclick="openNav()"><img src="./img/menu_icon.png" alt="Menu">
+        </button>
+         </div>
+        </div>
+        <div class="container">
+            <form class="book">
+                <p class="title">Book a room</p>
+                    <input class="field1" type="text" name="" id="" placeholder="Name" required> <br>
+                    <input class="field1" type="email" name="" id="" placeholder="Email" required> <br>
+                    <input class="field1" type="text" name="" id="" placeholder="Phone number" required> <br>
+                   <br>
+                    <div class="row">
+                        <div class="col">
+                            Check in:
+                            <br>
+                            <input class="check" type="date" name="checkin" id="">
+                        </div>
+                        <div class="col">
+                            Check out:
+                            <br>
+                            <input class="check" type="date" name="checkout" id="">
+                        </div>
+                    </div>
+                    <br>
+                <p class="title">Pick a package</p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        Single <input type="radio" name="room" id="room">
+                    </div>
+                    <div class="col-lg-6">
+                        Dobule <input type="radio" name="room" id="room">
+                    </div>
+                    <div class="col-lg-6">
+                        Family Suite <input type="radio" name="room" id="room">
+                    </div>
+                    <div class="col-lg-6">
+                        Aparement <input type="radio" name="room" id="room">
+                    </div>
+                </div>
+                <br>
+                <input class="bookbtn" type="button" value="Find a room">
+            </form>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                <div class="col-12">
+                            <h2>Contact us</h2>
+                    </div>
+                <hr>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                        <p>Address<br> no 6 lorem street quentzal goooba liyue <small></small></p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                        <p>Phone<br><small>+909087879080<br>+22344555432356</small></p>
+                        <p>Email<br><small>lorem@kipom.com</small></p>
+                        <p><small>lorem@kipom.com</small></p>
+                        <p><small>lorem@kipom.com</small></p>
+                    </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-6">                           
+                        <p>Social media</p>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="footerend">
+            © Copyrights 2021
+        </div>
+    </div>
+
+	<script>
+		function openNav() {
+			document.getElementById(
+				"mySidebar").style.width = "200px";
+			document.getElementById(
+				"main").style.marginLeft = "200px";
+		}
+
+		/* Set the width of the sidebar to 0
+		and the left margin of the page content to 0 */
+		function closeNav() {
+			document.getElementById(
+				"mySidebar").style.width = "0";
+			document.getElementById(
+				"main").style.marginLeft = "0";
+		}
+    </script>
+</body>
+</html>

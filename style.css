@@ -1,0 +1,293 @@
+*{
+  line-height: 30px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(244, 245, 248);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: royalblue;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: red;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 100px 70px;
+  background-color: white;
+  border: none;
+  float: right;
+  margin-top: 0;
+}
+.logo{
+  max-width: 75%;
+  height: auto;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+.caro{
+  padding-right: auto;
+  padding-left: 250px;
+}
+.text1{
+  text-align: center;
+}
+
+.text2{
+ text-align: justify;
+}
+.belt{
+  background-color: grey;
+  color: black;
+}
+.tetxt{
+  vertical-align: middle;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  padding-top: 100px;
+}
+.gall:hover{
+  text-decoration: none;
+  color: aqua;
+  cursor: pointer;
+}
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.gg{
+  color: blue;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h1{
+  color: tomato;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.p1{
+  text-align: center;
+  padding: 10px;
+  padding-top: 2px;
+}
+.text2{
+  text-align: justify;
+}
+.row1{
+  width: 150px;
+  height: 150px;
+ }
+.outmage{
+  max-width: 100%;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.p2{
+  text-align: center;
+  padding: 15px;
+  padding-top: 100px;
+}
+.explorebtn{
+  align-self: center;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff;
+}
+.explorebtn:hover{
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+}
+#whyhead{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+#whytext{
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  text-align: center;
+  background-color: #f1f1f1;
+  row-gap: 25px;
+  margin: 5px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+}
+
+  .beltcard{
+    padding: 50px;
+  }
+.con{
+  text-decoration: none;
+  color: #fff;
+}
+.con:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+footer{
+  background-color: darkblue;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 25px;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+li a{
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  
+}
+.fa{
+  
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.fa:hover{
+  opacity: 0.7;
+}
+
+.footerend{
+  background-color: black;
+  padding: 25px 0;
+  width: 100%;
+  min-height: 60px;
+  float: left;
+  text-align: center;
+  color: #fff;
+}
+.back{
+  background-color: tomato;
+}
+form{
+  background-color: white;
+  padding: 50px;
+  margin: 70px;
+  font-size: 25px;
+  text-align: center;
+}
+.field{
+  padding: 25px;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px;
+}
+.field1{
+  padding: 25px;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px;
+  text-align: center;
+}
+.inputbtn{
+  padding: 15px;
+  background-color: tomato;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin: 19px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.inputbtn:hover{
+  background-color: black;
+}
+.book{
+  line-height: 40px;
+  text-align: justify;  
+}
+.title{
+  font-size: 30px;
+  text-align: center;
+  color: tomato;
+  text-transform: uppercase; 
+}
+.bookbtn{
+  
+  padding: 15px;
+  background-color: tomato;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin: 19px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.bookbtn:hover{
+  background-color: black;
+}
